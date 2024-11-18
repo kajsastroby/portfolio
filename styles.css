@@ -89,21 +89,21 @@ h3 {
   font-size: 20px;
   padding-bottom: 20px;
   font-family: "Montserrat", sans-serif;
-  color: #b15352;
+  color: #f7c3cf;
 }
 
 .brödtext {
   font-size: 18px;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
-  color: #b15352;
+  color: #f7c3cf;
 }
 
 .avslut {
   padding-top: 20px;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 20px;
-  color: #b15352;
+  color: #f7c3cf;
 }
 
 .fot {
@@ -135,7 +135,14 @@ h3 {
 }
 
 .arrow {
-  border: solid #b15352(18 3% 25%);
+  border: solid #501c22;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrow2 {
+  border: solid #b15352;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -146,40 +153,83 @@ h3 {
   -webkit-transform: rotate(-45deg);
 }
 
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 .projekt {
   font-family: "Lalezar", system-ui;
   color: #b15352;
   text-align: center;
-  padding: 50px 50px;
+  padding: 20px;
   margin: auto;
   font-size: xx-large;
+  background-color: #501c22;
+  position: fixed;
+  width: 100vw;
 }
 
 .box1 {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
-}
-
-.boxtext {
-  aspect-ratio: 1/1;
-  width: 500px;
-  height: 500px;
-  font-family: "Lalezar", system-ui;
-  color: #b15352;
-  text-align: right;
+  align-items: flex-start;
+  background-color: #b15352;
+  margin: 100px;
+  padding: 50px;
+  gap: 40px;
 }
 
 .boxpuls img {
   object-fit: cover;
   object-position: center;
-  width: 500px;
-  height: 500px;
 }
 
-.boxpuls {
-  aspect-ratio: 1/1;
+.projektbild1 {
   width: 50%;
-  object-position: center;
-  padding-left: 100px;
+}
+
+.projekttext {
+  color: #f7c3cf;
+  font-family: "Lalezar", system-ui;
+  font-size: xx-large;
+  background-color: #b15352;
+}
+
+.projektbeskrivning {
+  font-size: large;
+  color: #f7c3cf;
+  font-family: "Montserrat", sans-serif;
+  background-color: #b15352;
+}
+
+.projektinfo {
+  width: 50%;
+}
+
+.treDprojekt {
+  display: flex;
+
+  align-items: flex-start;
+  background-color: #b15352;
+  margin: 100px;
+  padding: 50px;
+  gap: 40px;
+}
+
+.tillbakaknapp a:hover {
+  color: #f7c3cf;
+  transition: color 0.4s ease;
+}
+
+.tillbakaknapp a {
+  text-decoration: none;
+  color: #b15352;
+}
+
+.tillbakaknapp {
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  font-family: "Lalezar", system-ui;
 }
