@@ -309,9 +309,8 @@ h1 {
     align-items: center;
   }
   .box2 {
-    width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 90%;
+    margin-left: 25px;
     margin-bottom: 10px;
     margin-top: 20px;
   }
@@ -322,7 +321,6 @@ h1 {
   .low {
     font-size: 7px;
     font-weight: 100;
-    width: 400px;
     margin-left: 25px;
   }
   .up {
@@ -336,7 +334,6 @@ h1 {
     font-family: "Lalezar", system-ui;
   }
   .bild1 {
-    padding-left: 0px;
     width: 90%;
     height: 90%;
   }
@@ -367,12 +364,21 @@ h1 {
   }
 
   .projekt {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .tillbakaknapp {
+    position: fixed;
+    top: 24px;
   }
 
   .fot {
     font-size: 15px;
     text-decoration: none;
     color: #501c22;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
