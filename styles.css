@@ -361,7 +361,8 @@ h1 {
   }
 
   .fot {
-    font-size: small;
+    font-size: 15px;
     text-decoration: none;
+    color: #501c22;
   }
 }
