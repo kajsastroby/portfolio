@@ -167,6 +167,7 @@ h1 {
   text-decoration: none;
   color: #b15352;
   font-family: "Lalezar", system-ui;
+  max-width: 95px;
 }
 
 .knapp2:hover {
@@ -256,6 +257,10 @@ h1 {
 
 .projektinfo {
   width: 50%;
+  display: flex;
+  align-content: space-between;
+  gap: 25px;
+  flex-direction: column;
 }
 
 .treDprojekt {
@@ -340,7 +345,6 @@ h1 {
 
   .projektbeskrivning {
     font-size: 0px;
-    padding-bottom: 70px;
   }
 
   .projekttext {
@@ -355,21 +359,23 @@ h1 {
 
   .box1 {
     padding: 20px;
-    margin: 40px;
+    margin: 30px;
+    gap: 10px;
   }
 
   .treDprojekt {
     padding: 20px;
-    margin: 40px;
+    margin: 30px;
+    gap: 13px;
   }
 
   .projekt {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .tillbakaknapp {
     position: fixed;
-    top: 24px;
+    top: 30px;
   }
 
   .fot {
@@ -380,5 +386,15 @@ h1 {
 
   body {
     overflow-x: hidden;
+  }
+
+  .knapp2 {
+    font-size: 10px;
+    max-width: 65px;
+    padding: 3px 10px;
+  }
+
+  .allaprojekt {
+    padding-top: 20px;
   }
 }
