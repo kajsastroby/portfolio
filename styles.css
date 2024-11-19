@@ -128,13 +128,11 @@ h1 {
   width: 100%;
   height: 100px;
   background-color: #b15352;
-  align-items: baseline;
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
   align-items: center;
   color: #501c22;
-  justify-content: baseline;
   font-family: "Lalezar", system-ui;
   font-size: 20px;
   text-decoration: none;
@@ -293,7 +291,7 @@ h1 {
   }
 
   .containter {
-    width: 50%;
+    width: 80%;
   }
 
   .box {
@@ -304,6 +302,7 @@ h1 {
     width: 100%;
     margin-left: 30px;
     margin-right: 30px;
+    padding-top: 100px;
   }
 
   .bild2 {
@@ -311,13 +310,13 @@ h1 {
     margin-right: 50px;
   }
   .low {
-    font-size: 11px;
-    margin-left: 30px;
+    font-size: 8px;
+    margin-left: 10px;
     font-weight: 100;
   }
   .up {
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 190px;
     font-weight: 200;
   }
@@ -333,7 +332,7 @@ h1 {
 
   .projektbeskrivning {
     font-size: 0px;
-    padding-bottom: 140px;
+    padding-bottom: 70px;
   }
 
   .projekttext {
@@ -344,5 +343,19 @@ h1 {
     font-size: 18px;
     width: 90%;
     line-height: 30px;
+  }
+
+  .box1 {
+    padding: 20px;
+    margin: 40px;
+  }
+
+  .treDprojekt {
+    padding: 20px;
+    margin: 40px;
+  }
+
+  .projekt {
+    font-size: 30px;
   }
 }
