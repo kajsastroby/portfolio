@@ -72,6 +72,15 @@ h1 {
   justify-content: space-evenly;
 }
 
+.nedre-boxen {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
 .bild2 {
   height: 100%;
   width: 40%;
@@ -93,8 +102,11 @@ h1 {
 .rubrik {
   font-size: 20px;
   padding-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lalezar", system-ui;
   color: #f7c3cf;
+  font-weight: 100;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 
 .brödtext {
@@ -275,22 +287,39 @@ h1 {
 }
 
 @media (max-width: 800px) {
-  .bild2 {
-    width: 0px;
+  .nedre-boxen {
+    flex-direction: column-reverse;
+    justify-content: right;
+  }
+
+  .containter {
+    width: 50%;
+  }
+
+  .box {
+    width: 50%;
+    height: 100%;
   }
   .box2 {
     width: 100%;
     margin-left: 30px;
     margin-right: 30px;
   }
+
+  .bild2 {
+    width: 100%;
+    margin-right: 50px;
+  }
   .low {
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 30px;
+    font-weight: 100;
   }
   .up {
     font-size: 20px;
     margin-left: 30px;
     margin-bottom: 190px;
+    font-weight: 200;
   }
   h1 {
     font-size: 90px;
@@ -298,6 +327,8 @@ h1 {
   }
   .bild1 {
     margin-left: 20px;
+    width: 90%;
+    height: 90%;
   }
 
   .projektbeskrivning {
