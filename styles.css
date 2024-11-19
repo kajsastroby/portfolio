@@ -274,7 +274,7 @@ h1 {
   font-family: "Lalezar", system-ui;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 828px) {
   .bild2 {
     width: 0px;
   }
